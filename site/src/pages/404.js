@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Hero from '../components/hero';
-import Layout from '../components/layout';
-import PageHead from '../components/page-head';
+import Hero from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/hero';
+import Layout from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/layout';
+import PageHead from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/page-head';
 
 const NotFoundPage = ({ data, location }) => {
   return (
