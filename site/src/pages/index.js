@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import FeaturedProjects from '../../content/featured-projects.mdx';
+import FINOSProjects from '../../content/finos-projects.mdx';
 import HeroContent from '../../content/hero.mdx';
 import Partnerships from '../../content/partnerships.mdx';
 
@@ -15,6 +16,7 @@ const SiteIndex = ({ data, location }) => {
         <HeroContent />
         <section className="content">
           <FeaturedProjects />
+          <FINOSProjects />
           <Partnerships />
         </section>
       </div>
