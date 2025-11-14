@@ -5,8 +5,8 @@ import FeaturedProjects from '../../content/featured-projects.mdx';
 import HeroContent from '../../content/hero.mdx';
 import Partnerships from '../../content/partnerships.mdx';
 
-import Layout from '../components/layout';
-import PageHead from '../components/page-head';
+import Layout from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/layout';
+import PageHead from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/page-head';
 
 const SiteIndex = ({ data, location }) => {
   return (

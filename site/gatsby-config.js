@@ -1,5 +1,3 @@
-const { plugins } = require('./src/config/base-gatsby-plugins');
-
 module.exports = {
   siteMetadata: {
     title: `Morgan Stanley Open Source Software`,
@@ -11,5 +9,12 @@ module.exports = {
   flags: {
     DEV_SSR: true,
   },
-  plugins,
+  plugins: [
+    {
+      resolve: '@morganstanley/gatsby-theme-ms-gh-pages',
+      options: {
+        indexContent: 'content',
+      },
+    },
+  ],
 };

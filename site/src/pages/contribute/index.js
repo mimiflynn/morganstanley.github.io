@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
-import Layout from '../../components/layout';
-import PageHead from '../../components/page-head';
+import Layout from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/layout';
+import PageHead from '@morganstanley/gatsby-theme-ms-gh-pages/src/components/page-head';
 
 import ContributeHero from '../../../content/contribute-hero';
 
